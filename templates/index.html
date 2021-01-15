@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-{% block head %}
+    {% block head %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-   
+
 
     <title>{% block title %}About{% endblock %}</title>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    
+
 
 
     <!-- Bootstrap Core CSS -->
@@ -41,7 +42,7 @@
 </head>
 
 <body id="page-top" class="index">
-<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+    <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -73,17 +74,17 @@
         <!-- /.container-fluid -->
     </nav>
 
-{% endblock %}
+    {% endblock %}
     <!-- Header -->
     <header>
-    {% block content%}
+        {% block content%}
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="/static/img/learn_python.jpeg" alt="" width="304"height="236">                                                    
+                    <img class="img-responsive" src="/static/img/hrithik.jpeg" alt="" width="304" height="236">
                     <div class="intro-text">
                         <h2 class="name">Hey {{name}}!
-                        <h3>I am Hrithik a <strong> web developer<strong><h3>
+                            <h3>I am Hrithik a <strong> web developer<strong><h3>
                         </h2>
                         <hr class="star-light">
                    
@@ -211,5 +212,3 @@
 
 
 </html>
-
-   
